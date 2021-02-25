@@ -11,5 +11,5 @@ $ ./drone-nessus -h
 
 ## Build from source
 ```
-$ go get github.com/lair-framework/drone-nessus
+$ go get github.com/x-a-n-d-e-r-k/drone-nessus
 ```
