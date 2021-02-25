@@ -95,7 +95,7 @@ func buildProject(nessus *nessus.NessusData, projectID string, tags []string, in
 			severity := item.Severity
 			title := item.PluginName
 			port := item.Port
-			protocol := item.Protocol
+			protocol := strings.ToLower(item.Protocol)
 			service := item.SvcName
 			evidence := item.PluginOutput
 
